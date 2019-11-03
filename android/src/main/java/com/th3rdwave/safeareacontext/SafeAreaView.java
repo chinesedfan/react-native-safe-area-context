@@ -13,7 +13,7 @@ import android.view.WindowManager;
 import com.facebook.infer.annotation.Assertions;
 import com.facebook.react.views.view.ReactViewGroup;
 
-import androidx.annotation.Nullable;
+import android.support.annotation.Nullable;
 
 public class SafeAreaView extends ReactViewGroup implements ViewTreeObserver.OnGlobalLayoutListener {
   public interface OnInsetsChangeListener {
